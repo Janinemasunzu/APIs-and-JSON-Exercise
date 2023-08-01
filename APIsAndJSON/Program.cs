@@ -1,10 +1,14 @@
-﻿namespace APIsAndJSON
+﻿using Newtonsoft.Json.Linq;
+using System.Text.Json.Nodes;
+
+namespace APIsAndJSON
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            //RonVSKanyeAPI.Convo();
+            OpenWeatherMapAPI.CityWeather();
         }
     }
 }
