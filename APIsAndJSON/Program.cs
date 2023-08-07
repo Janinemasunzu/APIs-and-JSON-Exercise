@@ -7,8 +7,8 @@ namespace APIsAndJSON
     {
         static void Main(string[] args)
         {
-            //RonVSKanyeAPI.Convo();
-            OpenWeatherMapAPI.CityWeather();
+            RonVSKanyeAPI.Convo();
+            //OpenWeatherMapAPI.CityWeather();
         }
     }
 }
